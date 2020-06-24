@@ -1,0 +1,531 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[17/Jun/2020 02:13:29] "GET / HTTP/1.1" 200 566
+[17/Jun/2020 02:13:30] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:13:30] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:13:30] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:13:48] "GET / HTTP/1.1" 200 566
+[17/Jun/2020 02:13:48] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:13:48] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:13:49] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:13:49] "GET / HTTP/1.1" 200 566
+[17/Jun/2020 02:13:49] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:13:49] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:13:49] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:13:50] "GET / HTTP/1.1" 200 566
+Not Found: /favicon.ico
+[17/Jun/2020 02:13:50] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:13:50] "GET /web/test HTTP/1.1" 301 0
+[17/Jun/2020 02:13:50] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:15:32] "GET / HTTP/1.1" 200 581
+Not Found: /favicon.ico
+[17/Jun/2020 02:15:32] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:15:32] "GET /web/test HTTP/1.1" 301 0
+[17/Jun/2020 02:15:32] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:15:35] "GET / HTTP/1.1" 200 581
+[17/Jun/2020 02:15:35] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:15:35] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:15:35] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:15:36] "GET / HTTP/1.1" 200 581
+[17/Jun/2020 02:15:36] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:15:36] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:15:36] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:15:36] "GET / HTTP/1.1" 200 581
+[17/Jun/2020 02:15:37] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:15:37] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:15:37] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:15:37] "GET / HTTP/1.1" 200 581
+[17/Jun/2020 02:15:38] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:15:38] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:15:38] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:17:25] "GET / HTTP/1.1" 200 584
+Not Found: /favicon.ico
+[17/Jun/2020 02:17:25] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:17:41] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 02:17:41] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:17:41] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:17:41] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:18:20] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 02:18:20] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 02:18:20] "GET /favicon.ico HTTP/1.1" 404 2071
+[17/Jun/2020 02:18:20] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 02:26:32] "GET / HTTP/1.1" 200 582
+/home/dev0/work/devops/devops/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 02:13:09
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/dev0/work/devops/devops/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 02:30:33
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/dev0/work/devops/devops/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 02:30:42
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dev0/work/devops/devops/urls.py", line 20, in <module>
+    from web.views import ResourceManagementView
+ImportError: cannot import name 'ResourceManagementView'
+
+/home/dev0/work/devops/devops/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dev0/work/devops/devops/urls.py", line 20, in <module>
+    from web.views import ResourceManagementView
+ImportError: cannot import name 'ResourceManagementView'
+
+/home/dev0/work/devops/devops/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dev0/work/devops/devops/urls.py", line 20, in <module>
+    from web.views import ResourceManagementView
+ImportError: cannot import name 'ResourceManagementView'
+
+/home/dev0/work/devops/devops/urls.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dev0/work/devops/devops/urls.py", line 20, in <module>
+    from resourcemanagement.views import ResourceManagementView
+  File "/home/dev0/work/devops/resourcemanagement/views.py", line 5, in <module>
+    class ResourceManagementView(View):
+NameError: name 'View' is not defined
+
+/home/dev0/work/devops/resourcemanagement/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[17/Jun/2020 02:49:51] "GET / HTTP/1.1" 200 582
+Not Found: /favicon.ico
+[17/Jun/2020 02:49:51] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 02:49:51] "GET /web/test HTTP/1.1" 301 0
+[17/Jun/2020 02:49:51] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 03:08:20] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:08:20] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:08:20] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:08:20] "GET /web/test/ HTTP/1.1" 200 9
+/home/dev0/work/devops/resourcemanagement/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 02:47:44
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/dev0/work/devops/resourcemanagement/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:18:04
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/dev0/work/devops/resourcemanagement/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:18:31
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:20:28] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:20:29] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:20:29] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:20:29] "GET /web/test/ HTTP/1.1" 200 9
+[17/Jun/2020 03:23:31] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:23:32] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:23:32] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:23:32] "GET /web/test/ HTTP/1.1" 200 9
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:19:56
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:24:38
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:27:04] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:27:05] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:27:05] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:27:05] "GET /web/test/ HTTP/1.1" 200 22
+[17/Jun/2020 03:27:09] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:27:09] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:27:09] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:27:09] "GET /web/test/ HTTP/1.1" 200 22
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:26:56
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:29:16] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:29:16] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:29:16] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:29:16] "GET /web/test/ HTTP/1.1" 200 31
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:29:10
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:29:56] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:29:56] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:29:56] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:29:56] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:08] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:08] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:08] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:09] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:09] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:10] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:10] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:10] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:10] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:10] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:10] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:10] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:11] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:11] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:11] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:11] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:11] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:11] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:11] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:12] "GET /web/test/ HTTP/1.1" 200 31
+[17/Jun/2020 03:30:12] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:30:12] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:30:12] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:30:12] "GET /web/test/ HTTP/1.1" 200 31
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:29:54
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:31:38] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:31:39] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:31:39] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:31:39] "GET /web/test/ HTTP/1.1" 200 31
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:31:36
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:32:23] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:32:24] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:32:24] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:32:24] "GET /web/test/ HTTP/1.1" 200 33
+Not Found: /Portal0000.htm
+[17/Jun/2020 03:32:34] "GET /Portal0000.htm HTTP/1.1" 404 2199
+Not Found: /__Additional
+[17/Jun/2020 03:32:34] "GET /__Additional HTTP/1.1" 404 2193
+[17/Jun/2020 03:32:34] "GET / HTTP/1.1" 200 582
+Not Found: /CSS/Miniweb.css
+[17/Jun/2020 03:32:35] "GET /CSS/Miniweb.css HTTP/1.1" 404 2202
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:32:20
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:33:34] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:33:34] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:33:34] "GET /favicon.ico HTTP/1.1" 404 2190
+Internal Server Error: /web/test/
+Traceback (most recent call last):
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev0/work/devops/web/views.py", line 19, in test
+    return HttpResponse("just test vue %s" % time.strftime('%Y-%m-%d %H:%M:%S' , time.time()))
+TypeError: Tuple or struct_time argument required
+[17/Jun/2020 03:33:34] "GET /web/test/ HTTP/1.1" 500 65181
+[17/Jun/2020 03:33:37] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:33:37] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:33:37] "GET /favicon.ico HTTP/1.1" 404 2190
+Internal Server Error: /web/test/
+Traceback (most recent call last):
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev0/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev0/work/devops/web/views.py", line 19, in test
+    return HttpResponse("just test vue %s" % time.strftime('%Y-%m-%d %H:%M:%S' , time.time()))
+TypeError: Tuple or struct_time argument required
+[17/Jun/2020 03:33:38] "GET /web/test/ HTTP/1.1" 500 65181
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:33:26
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jun/2020 03:34:00] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 03:34:00] "GET /web/test HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[17/Jun/2020 03:34:00] "GET /favicon.ico HTTP/1.1" 404 2190
+[17/Jun/2020 03:34:01] "GET /web/test/ HTTP/1.1" 200 33
+/home/dev0/work/devops/web/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:33:56
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /boaform/admin/formLogin
+[17/Jun/2020 03:57:28] "POST /boaform/admin/formLogin HTTP/1.1" 404 2230
+[17/Jun/2020 04:55:14] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 05:50:57] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 06:13:28] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 07:16:56] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 09:32:55] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 11:46:17] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 11:50:05] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 13:21:26] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 13:34:07] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 15:07:09] "GET / HTTP/1.1" 200 582
+Not Found: /solr/
+[17/Jun/2020 15:31:48] "GET /solr/ HTTP/1.1" 404 2172
+[17/Jun/2020 15:52:47] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 16:02:53] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 17:01:08] "GET / HTTP/1.1" 200 582
+[17/Jun/2020 17:03:18] "GET / HTTP/1.1" 200 582
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 17, 2020 - 03:34:17
+Django version 3.0.7, using settings 'devops.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
