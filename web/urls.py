@@ -12,5 +12,6 @@ urlpatterns = [
     url('^$', web_view.index),
     path('test/', web_view.test),
     path('register/', web_view.register),
+    path('login/', web_view.login),
     path('get_captcha/', web_view.get_captcha),
 ]
