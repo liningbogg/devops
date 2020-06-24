@@ -79,7 +79,7 @@ class WebView(View):
                     request.session.delete(session_key)
                 auth.login(request, user)
                 devops_user.update(session_key=request.session.session_key)
-                encoded_jwt = jwt.encode({'username':'运维咖啡吧','site':'https://ops-coffee.cn'},'secret_key',algorithm='HS256')
+                encoded_jwt = jwt.encode({'username':username},'secret_key',algorithm='HS256')
                 result = {"status":"success", "username":username, "tip":"用户登录成功:"+username, "token":str(encoded_jwt, encoding='utf-8')} 
                 return HttpResponse(json.dumps(result))
             else:
