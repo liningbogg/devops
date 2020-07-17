@@ -24,7 +24,7 @@ web_view = WebView()
 resourcemanagement_view = ResourceManagementView()
 
 urlpatterns = [
-    url('^$', web_view.index),
+    path('admin/', admin.site.urls),
     path('web/', include('web.urls')),
     path('resourcemanagement/', include('resourcemanagement.urls')),
 ]

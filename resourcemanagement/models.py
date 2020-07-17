@@ -40,3 +40,11 @@ class Device(BaseModel):
     device_type =  models.ForeignKey('DeviceType', on_delete=models.CASCADE, null=False) 
     entry_time = models.DateTimeField(null=False)
     desc = models.CharField(max_length=256, null=False)
+
+
+class TestSNMP(BaseModel):
+    """
+    测试snmp
+    """
+    oid = models.CharField(max_length=256, null=False, default="")
+    sysdate = models.IntegerField(default=0, null=False)
